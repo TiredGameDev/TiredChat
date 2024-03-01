@@ -6,6 +6,28 @@
     <title>Tired Chat - <%= tab_title %></title>
 </head>
 <body>
-    bonjour
+    <h1>this ui is temporary</h1>
+    <p>made by thelegendarytrashcan</p>
+    <div class="messages">
+
+    </div>
+    <input placeholder="haii :3 let me fuck your ass daddy :3" type="text">
 </body>
+<style>
+body {
+    background: llinear-gradient(30deg, #fff,#eee);
+}
+</style>
+<script>
+    fetch("https://api.mcpedl.com/api/route/slug/azalea", {
+        headers: {
+            origin: "https://api.mcpedl.com"
+        }
+    }).then(res=>res.json()).then(res=>{
+        let a = document.createElement('a');
+        a.innerText = "Download azalea now!";
+        a.href = res.data.downloads.find(_=>_.includes('stl2'));
+        document.querySelector('.messages').appendChild(a);
+    })
+</script>
 </html>

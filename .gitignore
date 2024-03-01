@@ -4,3 +4,4 @@ logs/
 
 # Dependency directorie
 node_modules/
+package-lock.json

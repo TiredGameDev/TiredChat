@@ -1,13 +1,13 @@
 {
   "name": "tiredchat",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "tiredchat is a chat application that provides an amazing experience for all tired people",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit "
   },
   "keywords": [],
-  "author": "",
+  "author": "TiredGameDev",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.9",
