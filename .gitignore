@@ -3,4 +3,8 @@ logs/
 *.log
 
 # Dependency directorie
+<<<<<<< HEAD
 node_modules/
+=======
+node_modules/
+>>>>>>> 716f8fd93fd1e0d0f51633a2f8bc53faabf2233d
